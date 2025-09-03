@@ -20,7 +20,7 @@ spec:
       imagePullSecrets:
         - name: mytrainregistrykey
       containers:
-      - image: mohanraj123/tomcattrain:8
+      - image: darivala/mydocimg:15
         name: devopstraining-image
         ports:
         - containerPort: 8080
